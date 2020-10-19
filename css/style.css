@@ -66,3 +66,9 @@ label {
 label .optional {
     font-size: 12pt;
 }
+
+.form-group select {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
