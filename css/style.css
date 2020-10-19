@@ -3,7 +3,13 @@ body {
     font-family: sans-serif;
     color: #ffffff;
 }
+header {
+    margin: 50px 50px;
+}
 
+#description {
+    font-style: italic;
+}
 body::before {
     content: '';
     position: fixed;
@@ -21,14 +27,16 @@ body::before {
 
 main {
     text-align: center;
-    width: 60vw;
+    width: 40vw;
     margin: 0 auto;
+    
 }
 
 form#survey {
     background-color: rgba(27, 27, 50, 0.8);
     padding: 1.5rem;
     display: block;
+    border-radius: 0.5rem;
 }
 
 form .form-group {
@@ -37,7 +45,8 @@ form .form-group {
     color: #ffffff;
     font-size: 14pt;
     font-weight: 400;
-    margin: 2%
+    margin: 2%;
+    
 }
 
 form .form-group label,
@@ -50,7 +59,7 @@ form .form-group input {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
 }
 
 form .form-group input::placeholder {
@@ -77,4 +86,20 @@ label .optional {
     display: inline-block;
     width: inherit;
     margin: auto 10px auto 0;
+}
+
+#comments {
+    width: 100%;
+}
+
+#submit {
+    width: 100%;
+    background-color:#37af65;
+    padding: 1rem;
+    color:white;
+    border-style: none;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 50px;
 }
