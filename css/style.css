@@ -72,3 +72,9 @@ label .optional {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.form-group input.radio-btn {
+    display: inline-block;
+    width: inherit;
+    margin: auto 10px auto 0;
+}
