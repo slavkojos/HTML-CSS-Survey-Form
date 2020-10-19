@@ -1,3 +1,41 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
 main {
     text-align: center;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+form#survey {
+    background-color: rgba(27, 27, 50, 0.8);
+    padding: 1.5rem;
+    display: block;
+}
+
+form .form-group {
+    text-align: left;
+    display: block;
+    color: #ffffff;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+form .form-group label,
+form .form-group input {
+    display: block;
+    padding-top: 5px;
+}
+
+form .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+form .form-group input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
 }
